@@ -7,7 +7,7 @@
       :style="boxStyle"
     >
       <img :src="item.url" width="100%" height="auto" style="display:block" />
-      <slot />
+      <slot :data="item" :index="index" />
     </div>
   </div>
 </template>
@@ -63,7 +63,7 @@ export default {
       loadedCount: 0, //已预加载数
       heightArray: [],
       imgsArr_c: [], //渲染dom地址
-      imgBoxEls: [], //img dom
+      imgBoxEls: null, //img dom
       beginIndex: 0, //开始要排列的图片索引,首次为第二列的第一张图片，后续加载则为已经排列图片的下一个索引
       clientWidth: 0
     };
@@ -140,6 +140,7 @@ export default {
   },
 
   mounted() {
+    this.preload();
     this.getClientWidth();
     window.addEventListener("resize", () => {
       clearTimeout(this.timer);
@@ -192,6 +193,7 @@ export default {
     },
 
     verticalLineProcessor() {
+      if (!this.imgBoxEls) return;
       if (this.beginIndex === 0) this.heightArray = [];
       const { imgBoxEls, list, colCount, gapH, gapW, getLeft } = this;
       let top;
@@ -199,8 +201,10 @@ export default {
       let height;
       let boxWidth = this.boxWidth + gapW;
       let len = imgBoxEls.length;
+
       for (let i = this.beginIndex; i < len; i++) {
         let item = this.imgBoxEls[i];
+
         height = item.offsetHeight + gapH;
         if (i < colCount) {
           this.heightArray.push(item.offsetHeight);
