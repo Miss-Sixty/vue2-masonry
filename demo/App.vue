@@ -57,7 +57,7 @@
       <template v-slot="{ data }">
         <div class="text">
           <p>{{ data.title }}</p>
-          <p>连雨不知春去，一晴方觉夏深。</p>
+          <p>{{ data.text }}</p>
         </div>
       </template>
     </masonry>
