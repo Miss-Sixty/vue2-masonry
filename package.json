@@ -1,10 +1,17 @@
 {
-  "name": "vue-clever",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue2-masonry",
+  "version": "0.0.1",
+  "description": "A waterfall layout component for Vue.js",
+  "main": "lib/vue2-masonry.umd.min.js",
+  "keyword": "masonry waterfall vue2-masonry",
+  "files": [
+    "lib/vue2-masonry.umd.min.js"
+  ],
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --dest lib masonry/index.vue",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
