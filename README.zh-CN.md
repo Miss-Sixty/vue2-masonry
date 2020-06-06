@@ -1,6 +1,6 @@
 ## vue2-masonry
 
-![GitHub stars](https://img.shields.io/github/stars/Miss-Sixty/vue2-masonry?style=flat-square)![npm](https://img.shields.io/npm/dt/vue2-masonry?style=flat-square)![npm](https://img.shields.io/npm/v/vue2-masonry?style=flat-square)![npm bundle size](https://img.shields.io/bundlephobia/min/vue2-masonry?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/Miss-Sixty/vue2-masonry?style=flat-square) ![npm](https://img.shields.io/npm/dt/vue2-masonry?style=flat-square) ![npm](https://img.shields.io/npm/v/vue2-masonry?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/vue2-masonry?style=flat-square)
 
 <p>基于 Vue.js 的瀑布流布局组件</p>
  
