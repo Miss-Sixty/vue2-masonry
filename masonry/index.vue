@@ -39,7 +39,7 @@ export default {
       type: [String, Number],
       default: "5"
     },
-    boxShadow: {
+    shadow: {
       type: String,
       default: "0 2px 12px 0 rgba(0, 0, 0, 0.1)"
     },
@@ -105,7 +105,7 @@ export default {
       return {
         width: this.addUnit(this.boxWidth),
         borderRadius: this.addUnit(this.radius),
-        boxShadow: this.boxShadow
+        boxShadow: this.shadow
       };
     }
   },
@@ -131,7 +131,7 @@ export default {
     radius() {
       this.reset();
     },
-    boxShadow() {
+    shadow() {
       this.reset();
     },
     urlName() {
