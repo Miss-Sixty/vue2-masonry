@@ -37,16 +37,16 @@ export default {
 
 ## Props
 
-| Name      | Description                                                     | Type             | Default                         |
-| --------- | --------------------------------------------------------------- | ---------------- | ------------------------------- |
-| list      | Picture array                                                   | array            | []                              |
-| urlName   | Picture url                                                     | String           | url                             |
-| gapWidth  | Picture horizontal spacing                                      | string ｜ number | 10                              |
-| gapHeight | Picture vertical spacing                                        | string ｜ number | 10                              |
-| col       | Number of vertical arrangement（Mutually exclusive with width） | string ｜ number | -                               |
-| width     | Picture width（Mutually exclusive with col）                    | string ｜ number | 300                             |
-| radius    | Border Radius                                                   | string ｜ number | 5                               |
-| boxShadow | Card shadow                                                     | string           | 0 2px 12px 0 rgba(0, 0, 0, 0.1) |
+| Name       | Description                                                     | Type             | Default                         |
+| ---------- | --------------------------------------------------------------- | ---------------- | ------------------------------- |
+| list       | Picture array                                                   | array            | []                              |
+| url-name   | Picture url                                                     | String           | url                             |
+| gap-width  | Picture horizontal spacing                                      | string ｜ number | 10                              |
+| gap-height | Picture vertical spacing                                        | string ｜ number | 10                              |
+| col        | Number of vertical arrangement（Mutually exclusive with width） | string ｜ number | -                               |
+| width      | Picture width（Mutually exclusive with col）                    | string ｜ number | 300                             |
+| radius     | Border Radius                                                   | string ｜ number | 5                               |
+| shadow     | Card shadow                                                     | string           | 0 2px 12px 0 rgba(0, 0, 0, 0.1) |
 
 ## Methods
 
