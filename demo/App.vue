@@ -43,8 +43,6 @@
         阴影
         <input type="text" v-model="boxShadow" style="width:200px" />
       </label>
-
-      <button @click="reset">确定</button>
     </div>
     <masonry
       :list="imgs"
@@ -87,11 +85,6 @@ export default {
       boxShadow: "0 2px 12px 0 rgba(0, 0, 0, 0.1)",
       urlName: "url"
     };
-  },
-  methods: {
-    reset() {
-      this.$refs.masonry.reset();
-    }
   }
 };
 </script>
@@ -104,6 +97,9 @@ body {
     padding: 20px;
     .label-input {
       margin-right: 5px;
+      input {
+        width: 50px;
+      }
     }
   }
   .text {
