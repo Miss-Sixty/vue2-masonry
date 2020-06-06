@@ -5,9 +5,11 @@
 <p>基于 Vue.js 的瀑布流布局组件</p>
  
 ## Demo
-- [查看 Demo](https://miss-sixty.github.io/vue2-masonry/)
+<a href="https://miss-sixty.github.io/vue2-masonry/" target="_blank">
+查看 Demo
+</a>
 
-## 使用
+## 下载
 
 ```bash
 # 使用 npm
@@ -49,4 +51,4 @@ export default {
 使用 ref 获取 Masonry 实例并调用实例方法
 名字 |描述|返回值
 -|-|-
-reset|重制 Masonry |-
+reset|重置 Masonry |-

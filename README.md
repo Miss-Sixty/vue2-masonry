@@ -6,7 +6,9 @@
 <a href="./README.zh-CN.md">中文版介绍</a>
  
 ## Demo
-- [Preview](https://miss-sixty.github.io/vue2-masonry/)
+<a href="https://miss-sixty.github.io/vue2-masonry/" target="_blank">
+Preview
+</a>
 
 ## Install
 
