@@ -1,9 +1,6 @@
 ## vue2-masonry
 
-<img alt="npm" src="https://img.shields.io/npm/v/vue2-masonry?style=flat-square">
-<img alt="npm" src="https://img.shields.io/npm/dt/vue2-masonry?style=flat-square">
-<img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/vue2-masonry?style=flat-square">
-<img alt="GitHub stars" src="https://img.shields.io/github/stars/Miss-Sixty/vue2-masonry?style=flat-square">
+![GitHub stars](https://img.shields.io/github/stars/Miss-Sixty/vue2-masonry?style=flat-square)![npm](https://img.shields.io/npm/dt/vue2-masonry?style=flat-square)![npm](https://img.shields.io/npm/v/vue2-masonry?style=flat-square)![npm bundle size](https://img.shields.io/bundlephobia/min/vue2-masonry?style=flat-square)
 
 <p>A waterfall layout component for Vue.js</p>
 <a href="./README.zh-CN.md">中文版介绍</a>
