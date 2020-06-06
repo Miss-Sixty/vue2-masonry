@@ -259,7 +259,7 @@ export default {
   &-box {
     position: absolute;
     overflow: hidden;
-    // transition: all 0.5s;
+    transition: left 0.5s, top 0.5s;
   }
 }
 </style>

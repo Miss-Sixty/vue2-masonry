@@ -43,6 +43,8 @@
         阴影
         <input type="text" v-model="boxShadow" style="width:200px" />
       </label>
+
+      <button @click="reset">确定</button>
     </div>
     <masonry
       :list="imgs"
@@ -53,6 +55,7 @@
       :radius="radius"
       :urlName="urlName"
       :boxShadow="boxShadow"
+      ref="masonry"
     >
       <template v-slot="{ data }">
         <div class="text">
@@ -75,15 +78,20 @@ export default {
   data() {
     return {
       imgs,
-      radio: "1",
+      radio: "2",
       width: "300",
-      col: "3",
+      col: "2",
       gapWidth: "10",
       gapHeight: "10",
       radius: "5",
       boxShadow: "0 2px 12px 0 rgba(0, 0, 0, 0.1)",
       urlName: "url"
     };
+  },
+  methods: {
+    reset() {
+      this.$refs.masonry.reset();
+    }
   }
 };
 </script>
